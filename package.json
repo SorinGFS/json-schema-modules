@@ -1,27 +1,27 @@
 {
-  "name": "json-schema-modules",
-  "version": "0.0.0",
-  "description": "JSON Schema Modules",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SorinGFS/json-schema-modules.git"
-  },
-  "keywords": [
-    "json-schema",
-    "validation"
-  ],
-  "author": "SorinGFS",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/SorinGFS/json-schema-modules/issues"
-  },
-  "homepage": "https://github.com/SorinGFS/json-schema-modules#readme",
-  "dependencies": {
-    "js-yaml": "^4.1.0",
-    "zerodep": "1.7.21"
-  }
+    "name": "json-schema-modules",
+    "version": "0.0.0",
+    "description": "JSON Schema Modules",
+    "main": "index.js",
+    "scripts": {
+        "action": "node actions"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SorinGFS/json-schema-modules.git"
+    },
+    "keywords": [
+        "json-schema",
+        "validation"
+    ],
+    "author": "SorinGFS",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/SorinGFS/json-schema-modules/issues"
+    },
+    "homepage": "https://github.com/SorinGFS/json-schema-modules#readme",
+    "dependencies": {
+        "js-yaml": "^4.1.0",
+        "zerodep": "1.7.21"
+    }
 }

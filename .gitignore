@@ -396,3 +396,32 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+
+# Node.js
+lib-cov
+lcov.info
+pids
+logs
+results
+build
+node_modules
+.node_history
+package-lock.json
+**/package-lock.json
+!docs/package-lock.json
+
+# keys symlinks
+config/**/enabled/**
+!config/**/enabled/.gitkeep
+# drafts folder
+zzz-drafts
+# temporary ignore
+web/
+
+# ignore actions/build
+!actions/build
+zzz-draft
+src*
+actions/dev
+*copy*

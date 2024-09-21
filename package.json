@@ -21,7 +21,6 @@
     },
     "homepage": "https://github.com/SorinGFS/json-schema-modules#readme",
     "dependencies": {
-        "js-yaml": "^4.1.0",
         "zerodep": "1.7.21"
     }
 }
